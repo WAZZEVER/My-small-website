@@ -1,0 +1,155 @@
+.centerbutton {
+  text-align: center;
+}
+
+h1 {text-align: center;}
+h3 {text-align: center;}
+
+.center {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.center span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.center span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.center:hover span {
+  padding-right: 25px;
+}
+
+.center:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.scoreDisplay {
+  margin-top: -10px;
+  text-align: center;
+}
+
+.top{
+   background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.bottom{
+   background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.left {
+   background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.right { background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+       }
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  margin-left: 562px;
+  margin-bottom: 10px;
+  color: rgb(108, 150, 197);
+  text-shadow: 6px 4px #000000;
+  animation: myanimation 10s infinite;
+}
+
+.arrow {
+  border: solid rgb(108, 150, 197);
+  border-width: 0 15px 15px 0;
+  display: inline-block;
+  padding: 10px;
+  text-shadow: 6px 4px #000000;
+  animation: myanimation 10s infinite;
+}
+
+
+@keyframes myanimation {
+  25% {border: solid red;}
+  50%{border: solid orange;}
+  75%{border: solid yellow;}
+  100% {border: solid green;}
+}
+
+.coming {
+  background-color: white;
+  width: 300px;
+  border: 1px solid black;
+  padding: 50px;
+  margin: 20px;
+  margin-top: -400px;
+  font-size: 20px;
+  margin-left: 900px;
+  text-align: center;
+  animation: myanimation 10s infinite;
+  font-weight: bold;
+}
+
+.pic1{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
